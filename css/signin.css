@@ -50,7 +50,7 @@ h2 {
 p {
 	font-size: 14px;
 	font-weight: 100;
-	line-height: 20px;
+	
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
 }
@@ -68,7 +68,7 @@ a {
 
 button {
 	border-radius: 20px;
-
+	margin-top: 20px;
 	background:linear-gradient(to right, #2bf8ff, #ffd900);
 	color: #070527;
 	font-size: 12px;
@@ -104,11 +104,32 @@ form {
 }
 
 input {
-	background-color: #eee;
+	background: linear-gradient(to right, #b3e7e9, #e6ecf3);
 	border: none;
-	padding: 12px 15px;
-	margin: 8px 0;
+	padding: 10px 10px;
+	margin: 5px 0;
 	width: 100%;
+	border-radius: 20px;
+	
+  	box-shadow: 0 8px 8px rgba(0,0,0,0.25), 
+			0 8px 8px rgba(0,0,0,0.22);
+}
+input:focus{
+	background: linear-gradient(to right, #2bf8ff, #4193ff);
+	
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+select{
+	background: linear-gradient(to right, #b3e7e9, #e6ecf3);
+	border: none;
+	padding: 10px 10px;
+	margin: 5px 0;
+	width: 100%;
+	border-radius: 20px;
+	
+  	box-shadow: 0 8px 8px rgba(0,0,0,0.25), 
+			0 8px 8px rgba(0,0,0,0.22);
 }
 
 .ct {
@@ -120,7 +141,7 @@ input {
 	overflow: hidden;
 	width: 768px;
 	max-width: 100%;
-	min-height: 480px;
+	min-height: 550px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
